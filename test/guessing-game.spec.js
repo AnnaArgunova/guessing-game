@@ -3,7 +3,7 @@ const GuessingGame = require('../src/guessing-game.js')
 describe('GuessingGame', () => {
 describe('#guess', () => {
 
-    it.only('should guess number 409 with max value 4048', () => {
+    it('should guess number 409 with max value 4048', () => {
         const number = 409;
         const game = new GuessingGame();
         game.setRange(0, 4048)
